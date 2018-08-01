@@ -8,6 +8,6 @@ while (count < 11):
     count += 1
     
 ourList
-belowFive =[rand for rand in ourList if rand<5]
+belowFive =[rand for rand in ourList if rand<5] #only shows numbers in ourList that are below 5
 
 print(belowFive)

@@ -1,3 +1,4 @@
+#phelister code changes
 import random 
 
 ourList = list()
@@ -7,3 +8,6 @@ while (count < 11):
     count += 1
     
 ourList
+belowFive =[rand for rand in ourList if rand<5]
+
+print(belowFive)
